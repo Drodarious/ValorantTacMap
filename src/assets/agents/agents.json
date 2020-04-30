@@ -70,7 +70,7 @@
         ]
     },
     {
-        "name": "cypher2",
+        "name": "cypher",
         "displayName": "Cypher", 
         "role": "sentinel",
         "abilities": [
