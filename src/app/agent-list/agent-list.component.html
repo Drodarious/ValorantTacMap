@@ -1,0 +1,15 @@
+<nav>
+    <div *ngFor="let agent of agents;">
+        <span>
+            <img class="agent" alt="{{agent.displayName}}" src="assets/agents/{{agent.name}}/agent.png" />
+            <img class="role" alt="{{agent.role}}" src="assets/roles/{{agent.role}}.png" />
+            <h1>{{agent.displayName}}</h1>
+        </span>
+        <ul>
+            <li *ngFor="let ability of agent.abilities;">
+                <img alt="{{ability.displayName}}" src="assets/agents/{{agent.name}}/abilities/{{ability.name}}.png" />
+                <h3>{{ability.displayName}}</h3>
+            </li>
+        </ul>
+    </div>
+</nav>

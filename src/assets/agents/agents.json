@@ -1,0 +1,108 @@
+[
+    {
+        "name": "breach",
+        "displayName": "Breach",
+        "role": "initiator",
+        "abilities": [
+            {
+                "name": "aftershock",
+                "displayName": "Aftershock",
+                "type": "basic",
+                "cost": 100,
+                "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area."
+            },
+            {
+                "name": "flashpoint",
+                "displayName": "Flashpoint",
+                "type": "basic",
+                "cost": 200,
+                "description": "Equip a blinding charge. Fire the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it."
+            },
+            {
+                "name": "fault-line",
+                "displayName": "Fault Line",
+                "type": "signature",
+                "cost": 0,
+                "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone."
+            },
+            {
+                "name": "rolling-thunder",
+                "displayName": "Rolling Thunder",
+                "type": "ultimate",
+                "cost": 7,
+                "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it."
+            }
+        ]
+    },
+    {
+        "name": "brimstone",
+        "displayName": "Brimstone",
+        "role": "controller",
+        "abilities": [
+            {
+                "name": "incendiary",
+                "displayName": "Incendiary",
+                "type": "basic",
+                "cost": 200,
+                "description": "Equip an Incendiary grenade launcher. Fire to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone."
+            },
+            {
+                "name": "stim-beacon",
+                "displayName": "Stim Beacon",
+                "type": "basic",
+                "cost": 100,
+                "description": "Equip a Stim Beacon. Fire to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire."
+            },
+            {
+                "name": "sky-smoke",
+                "displayName": "Sky Smoke",
+                "type": "signature",
+                "cost": 100,
+                "description": "Equip a tactical map. Fire to set locations where Brimstone's smoke clouds will land. Alternate Fire to confirm, launching long-lasting smoke clouds that block vision in the selected area."
+            },
+            {
+                "name": "orbital-strike",
+                "displayName": "Orbital Strike",
+                "type": "ultimate",
+                "cost": 6,
+                "description": "Equip a tactical map. Fire to launch a lingering orbital strike laser at the selected location dealing high damage over-time to players caught in the selected area."
+            }
+        ]
+    },
+    {
+        "name": "cypher",
+        "displayName": "Cypher",
+        "role": "sentinel",
+        "abilities": [
+            {
+                "name": "Trapwire",
+                "displayName": "Trapwire",
+                "type": "basic",
+                "cost": 200,
+                "description": "Equip a trapwire. Fire to place a destructible and covert tripware at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a tripwire will be tethered, revealed, and dazed after a short period if they do not destroy the device in time. This ability can be picked up to be redeployed."
+            },
+            {
+                "name": "cyber-cage",
+                "displayName": "Cyber Cage",
+                "type": "basic",
+                "cost": 100,
+                "description": "Equip a cyber cage. Fire to toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it."
+            },
+            {
+                "name": "spycam",
+                "displayName": "Spycam",
+                "type": "signature",
+                "cost": 0,
+                "description": "Equip a spycam. Fire to place the spycam at the targeted location. REUSE this ability to take control of the camera's view. While in control of the camera. Fire to shoot a marking dart. This dart will reveal the location of any player struck by the dart."
+            },
+            {
+                "name": "Neural Theft",
+                "displayName": "Neural Theft",
+                "type": "ultimate",
+                "cost": 7,
+                "description": "Instantly use on a dead enemy player in your crosshairs to reveal the location of all living enemy players."
+            }
+        ]
+    }
+
+]
