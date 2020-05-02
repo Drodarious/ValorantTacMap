@@ -2,5 +2,15 @@ html, body{
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serifs;
+    font-family: 'Teko', sans-serif;
+}
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('/assets/bg.png');
+    z-index: -1;
 }

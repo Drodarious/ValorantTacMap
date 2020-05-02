@@ -1,4 +1,4 @@
-<nav>
+<nav [class.enemy]="isEnemyTeam">
     <div *ngFor="let agent of agents;">
         <span>
             <img class="agent" alt="{{agent.displayName}}" src="assets/agents/{{agent.name}}/agent.png" />
@@ -6,10 +6,12 @@
             <h1>{{agent.displayName}}</h1>
         </span>
         <ul>
-            <li *ngFor="let ability of agent.abilities;">
-                <img alt="{{ability.displayName}}" src="assets/agents/{{agent.name}}/abilities/{{ability.name}}.png" />
-                <h3>{{ability.displayName}}</h3>
-            </li>
+            <ng-container *ngFor="let ability of agent.abilities;">
+                <li *ngIf="ability.isActive" (click)="selectAbility($event, agent, ability)">
+                    <img alt="{{ability.displayName}}" src="assets/agents/{{agent.name}}/{{ability.name}}{{isEnemyTeam ? '-alt' : ''}}.png" />
+                    <h3>{{ability.displayName}}</h3>
+                </li>
+            </ng-container>
         </ul>
     </div>
 </nav>

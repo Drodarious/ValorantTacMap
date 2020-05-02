@@ -1,10 +1,12 @@
-<div 
-  id="tacMap"
-  (click)="addSprite($event)"
-  (contextmenu)="removeSprite($event)"
->
+<div id="tacMapViewport">
+  <div 
+    id="tacMap"
+    (click)="addSprite($event)"
+    (contextmenu)="removeSprite($event)"
+    [ngStyle]="{width:currentMap.width+'px', height:currentMap.height+'px'}"
+  >
 
-<div class="map" style="background-image: url('assets/maps/bind.jpg')"></div>
+      <img class="map" alt="Bind" src="assets/maps/bind.png" />
 
-
-</div>
+  </div>
+</div>e

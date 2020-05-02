@@ -9,28 +9,32 @@
                 "displayName": "Aftershock",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area."
+                "description": "Equip a fusion charge. Fire the charge to set a slow-acting burst through the wall. The burst does heavy damage to anyone caught in its area.",
+                "isActive": true
             },
             {
                 "name": "flashpoint",
                 "displayName": "Flashpoint",
                 "type": "basic",
                 "cost": 200,
-                "description": "Equip a blinding charge. Fire the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it."
+                "description": "Equip a blinding charge. Fire the charge to set a fast-acting burst through the wall. The charge detonates to blind all players looking at it.",
+                "isActive": true
             },
             {
                 "name": "fault-line",
                 "displayName": "Fault Line",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone."
+                "description": "Equip a seismic blast. Hold Fire to increase the distance. Release to set off the quake, dazing all players in its zone and in a line up to the zone.",
+                "isActive": true
             },
             {
                 "name": "rolling-thunder",
                 "displayName": "Rolling Thunder",
                 "type": "ultimate",
                 "cost": 7,
-                "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it."
+                "description": "Equip a seismic charge. Fire to send a cascading quake through all terrain in a large cone. The quake dazes and knocks up anyone caught in it.",
+                "isActive": true
             }
         ]
     },
@@ -44,28 +48,32 @@
                 "displayName": "Incendiary",
                 "type": "basic",
                 "cost": 200,
-                "description": "Equip an Incendiary grenade launcher. Fire to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone."
+                "description": "Equip an Incendiary grenade launcher. Fire to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone.",
+                "isActive": true
             },
             {
                 "name": "stim-beacon",
                 "displayName": "Stim Beacon",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a Stim Beacon. Fire to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire."
+                "description": "Equip a Stim Beacon. Fire to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.",
+                "isActive": true
             },
             {
                 "name": "sky-smoke",
                 "displayName": "Sky Smoke",
                 "type": "signature",
                 "cost": 100,
-                "description": "Equip a tactical map. Fire to set locations where Brimstone's smoke clouds will land. Alternate Fire to confirm, launching long-lasting smoke clouds that block vision in the selected area."
+                "description": "Equip a tactical map. Fire to set locations where Brimstone's smoke clouds will land. Alternate Fire to confirm, launching long-lasting smoke clouds that block vision in the selected area.",
+                "isActive": true
             },
             {
                 "name": "orbital-strike",
                 "displayName": "Orbital Strike",
                 "type": "ultimate",
                 "cost": 6,
-                "description": "Equip a tactical map. Fire to launch a lingering orbital strike laser at the selected location dealing high damage over-time to players caught in the selected area."
+                "description": "Equip a tactical map. Fire to launch a lingering orbital strike laser at the selected location dealing high damage over-time to players caught in the selected area.",
+                "isActive": true
             }
         ]
     },
@@ -86,21 +94,24 @@
                 "displayName": "Cyber Cage",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a cyber cage. Fire to toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it."
+                "description": "Equip a cyber cage. Fire to toss the cyber cage in front of Cypher. Activate to create a zone that blocks vision and slows enemies who pass through it.",
+                "isActive": true
             },
             {
                 "name": "spycam",
                 "displayName": "Spycam",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a spycam. Fire to place the spycam at the targeted location. REUSE this ability to take control of the camera's view. While in control of the camera. Fire to shoot a marking dart. This dart will reveal the location of any player struck by the dart."
+                "description": "Equip a spycam. Fire to place the spycam at the targeted location. REUSE this ability to take control of the camera's view. While in control of the camera. Fire to shoot a marking dart. This dart will reveal the location of any player struck by the dart.",
+                "isActive": true
             },
             {
                 "name": "neural-theft",
                 "displayName": "Neural Theft",
                 "type": "ultimate",
                 "cost": 7,
-                "description": "Instantly use on a dead enemy player in your crosshairs to reveal the location of all living enemy players."
+                "description": "Instantly use on a dead enemy player in your crosshairs to reveal the location of all living enemy players.",
+                "isActive": false
             }
         ]
     }, 
@@ -114,28 +125,32 @@
                 "displayName": "Cloudburst",
                 "type": "basic",
                 "cost": 100,
-                "description": "Instantly throw a projectile that expands into a brief vision cloud on impact with a surface. Hold the ability key to curve the cloud in the direction of your crosshair."
+                "description": "Instantly throw a projectile that expands into a brief vision cloud on impact with a surface. Hold the ability key to curve the cloud in the direction of your crosshair.",
+                "isActive": true
             },
             {
                 "name": "updraft",
                 "displayName": "Updraft",
                 "type": "basic",
                 "cost": 200,
-                "description": "Instantly propel Jett high into the air."
+                "description": "Instantly propel Jett high into the air.",
+                "isActive": false
             },
             {
                 "name": "tailwind",
                 "displayName": "Tailwind",
                 "type": "signature",
                 "cost": 0,
-                "description": "Instantly propel in the direction she is moving. If Jett is standing still, she will propel forward."
+                "description": "Instantly propel in the direction she is moving. If Jett is standing still, she will propel forward.",
+                "isActive": true
             },
             {
                 "name": "blade-storm",
                 "displayName": "Blade Storm",
                 "type": "ultimate",
                 "cost": 6,
-                "description": "Equip a set of highly accurate throwing knives that recharge on an opponent. Fire to throw a single knife at your target. Alternative Fire to throw all remaining daggers at your target."
+                "description": "Equip a set of highly accurate throwing knives that recharge on an opponent. Fire to throw a single knife at your target. Alternative Fire to throw all remaining daggers at your target.",
+                "isActive": false
             }
         ]
     }, 
@@ -149,28 +164,32 @@
                 "displayName": "Shrouded Step",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a shadow walk ability and see its range indicator. Fire to begin a brief channel, then teleport to the marked location."
+                "description": "Equip a shadow walk ability and see its range indicator. Fire to begin a brief channel, then teleport to the marked location.",
+                "isActive": true
             },
             {
                 "name": "paranoia",
                 "displayName": "Paranoia",
                 "type": "basic",
                 "cost": 200,
-                "description": "Instantly fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls."
+                "description": "Instantly fire a shadow projectile forward, briefly reducing the vision range of all players it touches. This projectile can pass straight through walls.",
+                "isActive": true
             },
             {
                 "name": "dark-cover",
                 "displayName": "Dark Cover",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a shadow orb and see its range indicator. Fire to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. Hold Alternate Fire while targeting to move the marker further away. Hold the ability key with targeting to move the market closer."
+                "description": "Equip a shadow orb and see its range indicator. Fire to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. Hold Alternate Fire while targeting to move the marker further away. Hold the ability key with targeting to move the market closer.",
+                "isActive": true
             },
             {
                 "name": "from-the-shadows",
                 "displayName": "From the Shadows",
                 "type": "ultimate",
                 "cost": 7,
-                "description": "Equip a tactical map. Fire to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport."
+                "description": "Equip a tactical map. Fire to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport.",
+                "isActive": true
             }
         ]
     }, 
@@ -184,28 +203,32 @@
                 "displayName": "Blaze",
                 "type": "basic",
                 "cost": 200,
-                "description": "Equip a flame wall. Fire to create a line of flames that moves forward creating a wall that blocks vision and damages players passing through it. Hold Fire to bend the wall in the direction of your crosshair."
+                "description": "Equip a flame wall. Fire to create a line of flames that moves forward creating a wall that blocks vision and damages players passing through it. Hold Fire to bend the wall in the direction of your crosshair.",
+                "isActive": true
             },
             {
                 "name": "curveball",
                 "displayName": "Curveball",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a flare orb that takes a curving path and detonates shortly after throwing, impairing vision. Fire to curve the flare orb to the left, detonating and blinding any player who sees the orb. Alternate fire to curve the flare orb to the right."
+                "description": "Equip a flare orb that takes a curving path and detonates shortly after throwing, impairing vision. Fire to curve the flare orb to the left, detonating and blinding any player who sees the orb. Alternate fire to curve the flare orb to the right.",
+                "isActive": true
             },
             {
                 "name": "hot-hands",
                 "displayName": "Hot Hands",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a fireball. Fire to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies."
+                "description": "Equip a fireball. Fire to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies.",
+                "isActive": true
             },
             {
                 "name": "run-it-back",
                 "displayName": "Run it Back",
                 "type": "ultimate",
                 "cost": 6,
-                "description": "Instantly place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health."
+                "description": "Instantly place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health.",
+                "isActive": false
             }
         ]
     },
@@ -219,28 +242,32 @@
                 "displayName": "Boom Bot",
                 "type": "basic",
                 "cost": 200,
-                "description": "Equip a Boom Bot. Fire will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them."
+                "description": "Equip a Boom Bot. Fire will deploy the bot, causing it to travel in a straight line on the ground, bouncing off walls. The Boom Bot will lock on to any enemies in its frontal cone and chase them, exploding for heavy damage if it reaches them.",
+                "isActive": true
             },
             {
                 "name": "blast-pack",
                 "displayName": "Blast Pack",
                 "type": "basic",
                 "cost": 100,
-                "description": "Instantly throw a Blast Pack that will stick to surfaces. Re-us the ability after deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this ability, but will still take fall damage if launched up far enough."
+                "description": "Instantly throw a Blast Pack that will stick to surfaces. Re-us the ability after deployment to detonate, damaging and moving anything hit. Raze isn't damaged by this ability, but will still take fall damage if launched up far enough.",
+                "isActive": true
             },
             {
                 "name": "paint-shells",
                 "displayName": "Paint Shells",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a cluster grenade. Fire to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range."
+                "description": "Equip a cluster grenade. Fire to throw the grenade, which does damage and creates sub-munitions, each doing damage to anyone in their range.",
+                "isActive": true
             },
             {
                 "name": "showstopper",
                 "displayName": "Showstopper",
                 "type": "ultimate",
                 "cost": 6,
-                "description": "Raze equips a single-use rocket launcher with the ability to one-shot enemies. Damage from this ability is consistent throughout the entire blast radius."
+                "description": "Raze equips a single-use rocket launcher with the ability to one-shot enemies. Damage from this ability is consistent throughout the entire blast radius.",
+                "isActive": true
             }
         ]
     }, 
@@ -254,28 +281,32 @@
                 "displayName": "Barrier Orb",
                 "type": "basic",
                 "cost": 300,
-                "description": "Equip a barrier orb. Fire places a solid wall. Alternate fire rotates the targeter."
+                "description": "Equip a barrier orb. Fire places a solid wall. Alternate fire rotates the targeter.",
+                "isActive": true
             },
             {
                 "name": "slow-orb",
                 "displayName": "Slow Orb",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip an orb that slows whoever walks on them after being thrown on the ground."
+                "description": "Equip an orb that slows whoever walks on them after being thrown on the ground.",
+                "isActive": true
             },
             {
                 "name": "healing-orb",
                 "displayName": "Healing Orb",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a healing orb. Fire with your crosshairs over a damaged ally to activate a heal-over-time on them. Alternate fire while Sage is damaged to activate a self heal-over-time."
+                "description": "Equip a healing orb. Fire with your crosshairs over a damaged ally to activate a heal-over-time on them. Alternate fire while Sage is damaged to activate a self heal-over-time.",
+                "isActive": false
             },
             {
                 "name": "resurrection",
                 "displayName": "Resurrection",
                 "type": "ultimate",
                 "cost": 7,
-                "description": "Equip a resurrection ability. Fire with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health."
+                "description": "Equip a resurrection ability. Fire with your crosshairs placed over a dead ally to begin resurrecting them. After a brief channel, the ally will be brought back to life with full health.",
+                "isActive": false
             }
         ]
     },
@@ -289,28 +320,32 @@
                 "displayName": "Shock Bolt",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a bow with shock bolt. Fire to send the explosive bolt forward detonating upon collision and damaging players nearby. Hold Fire to extend the range of the projectile. Alternate Fire to add up to two bounces to this arrow."
+                "description": "Equip a bow with shock bolt. Fire to send the explosive bolt forward detonating upon collision and damaging players nearby. Hold Fire to extend the range of the projectile. Alternate Fire to add up to two bounces to this arrow.",
+                "isActive": true
             },
             {
                 "name": "owl-drone",
                 "displayName": "Owl Drone",
                 "type": "basic",
                 "cost": 300,
-                "description": "Equip an owl drone. Fire to deploy and take control of movement of the drone. While in control of the drone, Fire to shoot a marking dart. This dart will reveal the location of any player struck by the dart."
+                "description": "Equip an owl drone. Fire to deploy and take control of movement of the drone. While in control of the drone, Fire to shoot a marking dart. This dart will reveal the location of any player struck by the dart.",
+                "isActive": true
             },
             {
                 "name": "recon-bolt",
                 "displayName": "Recon Bolt",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a bow with recon bolt. Fire to send the bolt forward activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. Hold Fire to extend the range of the projectile. Alternate Fire to add up to two bounces to this arrow."
+                "description": "Equip a bow with recon bolt. Fire to send the bolt forward activating upon collision and revealing the location of nearby enemies caught in the line of sight of the bolt. Enemies can destroy this bolt. Hold Fire to extend the range of the projectile. Alternate Fire to add up to two bounces to this arrow.",
+                "isActive": true
             },
             {
                 "name": "hunter's-fury",
                 "displayName": "Hunter's Fury",
                 "type": "ultimate",
                 "cost": 7,
-                "description": "Equip a bow with three long-range, wall-piercing energy blasts. Fire to release an blast in a line in front of Sova dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active."
+                "description": "Equip a bow with three long-range, wall-piercing energy blasts. Fire to release an blast in a line in front of Sova dealing damage and revealing the location of enemies caught in the line. This ability can be RE-USED up to two more times while the ability timer is active.",
+                "isActive": true
             }
         ]
     }, 
@@ -324,28 +359,32 @@
                 "displayName": "Snake Bite",
                 "type": "basic",
                 "cost": 100,
-                "description": "Equip a chemical launcher. Fire to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies."
+                "description": "Equip a chemical launcher. Fire to launch a canister that shatters upon hitting the floor, creating a lingering chemical zone that damages and slows enemies.",
+                "isActive": true
             },
             {
                 "name": "poison-cloud",
                 "displayName": "Poison Cloud",
                 "type": "basic",
                 "cost": 200,
-                "description": "Equip a gas emitter. Fire to throw the emitter that perpetually remains throughout the round. Re-use the ability to create a toxic gas cloud at the cost of fuel. This ability can be re-used more than once and can be picked up to be redeployed."
+                "description": "Equip a gas emitter. Fire to throw the emitter that perpetually remains throughout the round. Re-use the ability to create a toxic gas cloud at the cost of fuel. This ability can be re-used more than once and can be picked up to be redeployed.",
+                "isActive": true
             },
             {
                 "name": "toxic-screen",
                 "displayName": "Toxic Screen",
                 "type": "signature",
                 "cost": 0,
-                "description": "Equip a gas emitter launcher. Fire to deploy a long line of gas emitters. Re-use the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be re-used more than once."
+                "description": "Equip a gas emitter launcher. Fire to deploy a long line of gas emitters. Re-use the ability to create a tall wall of toxic gas at the cost of fuel. This ability can be re-used more than once.",
+                "isActive": true
             },
             {
                 "name": "viper's-pit",
                 "displayName": "Viper's Pit",
                 "type": "ultimate",
                 "cost": 7,
-                "description": "Equip a chemical sprayer. Fire to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it."
+                "description": "Equip a chemical sprayer. Fire to spray a chemical cloud in all directions around Viper, creating a large cloud that reduces the vision range and maximum health of players inside of it.",
+                "isActive": true
             }
         ]
     }
